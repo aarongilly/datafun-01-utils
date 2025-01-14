@@ -25,48 +25,49 @@ import statistics  # provides mean(), stdev() and more....
 #####################################
 
 # declare a boolean variable (has a value True or False)
-# TODO: Add another or replace this with your own boolean variable
-has_international_clients: bool = True
+is_strong_in_python: bool = False
+#has_international_clients: bool = True
 
 # declare an integer variable 
-# TODO: Add or replace this with your own integer variable
-years_in_operation: int = 10
+years_old: int = 36
+#years_in_operation: int = 10
 
 # declare a floating point variable
-# TODO: Add or replace this with your own floating point variable
-average_client_satisfaction: float = 4.7
+current_weight_lbs: float = 224.5
+#average_client_satisfaction: float = 4.7
 
 # declare a list of strings
-# TODO: Add or replace this with your own list  
-skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+skills_in_work: list = ["Python","3D Printing & Design", "Microcontroller stuff"]
+#skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
 
 # declare a list of numbers so we can illustrate statistics skills
-# TODO: Add or replace this with your own numeric list  
-client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+prev_three_days_spend: list = [0.0, 30.34, 12.58]
+#client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_score: float = min(prev_three_days_spend)  
+max_score: float = max(prev_three_days_spend)  
+mean_score: float = statistics.mean(prev_three_days_spend)  
+stdev_score: float = statistics.stdev(prev_three_days_spend)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
 # TODO: Modify the variables in the byline to use your variable names
-byline: str = f"""
----------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
----------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
-"""
+byline: str = "Commented out the below for this commit for the purposes of the assigment"
+# byline: str = f"""
+# ---------------------------------------------------------
+# Stellar Analytics: Delivering Professional Insights
+# ---------------------------------------------------------
+# Has International Clients:  {has_international_clients}
+# Years in Operation:         {years_in_operation}
+# Skills Offered:             {skills_offered}
+# Client Satisfaction Scores: {client_satisfaction_scores}
+# Minimum Satisfaction Score: {min_score}
+# Maximum Satisfaction Score: {max_score}
+# Mean Satisfaction Score: {mean_score:.2f}
+# Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+# """
 
 #####################################
 # Define global functions (resuable instructions)
