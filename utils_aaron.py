@@ -45,7 +45,6 @@ prev_three_days_spend: list = [0.0, 30.34, 12.58]
 #client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
-# TODO: Replace these variable names with the variable name of your own numeric list
 min_score: float = min(prev_three_days_spend)  
 max_score: float = max(prev_three_days_spend)  
 mean_score: float = statistics.mean(prev_three_days_spend)  
@@ -56,13 +55,13 @@ byline: str = f"""
 ---------------------------------------------------------
 Aaron Analytics: The More Fun AA
 ---------------------------------------------------------
-Is Strong with Python:  {is_strong_in_python}
+Is Strong with Python:      {is_strong_in_python}
 Years in Operation:         {years_old}
-Skills In Development:             {skills_in_work}
-Previous 3 Days Spend: {prev_three_days_spend}
-Minimum Money Spent: {min_score}
-Maximum Money Spent: {max_score}
-Mean Money Spent: {mean_score:.2f}
+Skills In Development:      {skills_in_work}
+Previous 3 Days Spend:      {prev_three_days_spend}
+Minimum Money Spent:        {min_score}
+Maximum Money Spent:        {max_score}
+Mean Money Spent:           {mean_score:.2f}
 Standard Deviation of Money Spent: {stdev_score:.2f}
 """
 
