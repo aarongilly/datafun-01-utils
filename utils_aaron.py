@@ -52,22 +52,19 @@ mean_score: float = statistics.mean(prev_three_days_spend)
 stdev_score: float = statistics.stdev(prev_three_days_spend)
 
 # Use a Python formatted string (f-string) to show information
-# TODO: Modify the text in the byline to fit your information
-# TODO: Modify the variables in the byline to use your variable names
-byline: str = "Commented out the below for this commit for the purposes of the assigment"
-# byline: str = f"""
-# ---------------------------------------------------------
-# Stellar Analytics: Delivering Professional Insights
-# ---------------------------------------------------------
-# Has International Clients:  {has_international_clients}
-# Years in Operation:         {years_in_operation}
-# Skills Offered:             {skills_offered}
-# Client Satisfaction Scores: {client_satisfaction_scores}
-# Minimum Satisfaction Score: {min_score}
-# Maximum Satisfaction Score: {max_score}
-# Mean Satisfaction Score: {mean_score:.2f}
-# Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
-# """
+byline: str = f"""
+---------------------------------------------------------
+Aaron Analytics: The More Fun AA
+---------------------------------------------------------
+Is Strong with Python:  {is_strong_in_python}
+Years in Operation:         {years_old}
+Skills In Development:             {skills_in_work}
+Previous 3 Days Spend: {prev_three_days_spend}
+Minimum Money Spent: {min_score}
+Maximum Money Spent: {max_score}
+Mean Money Spent: {mean_score:.2f}
+Standard Deviation of Money Spent: {stdev_score:.2f}
+"""
 
 #####################################
 # Define global functions (resuable instructions)
