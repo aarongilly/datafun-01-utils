@@ -3,9 +3,9 @@ Module: utils_aaron
 
 Purpose: Reusable Module for My Analytics Projects
 
-Description: This module provides a byline for my analytics projects. 
-When we work hard to write useful code, we want it to be reusable.
-A good byline could be used in every Python analytics project we do.
+Description: This module implements some basic functionality demsontrating the completion of the 
+the first "Engage" assigment. In theory this sort of module would be reusable. Thus far I doubt
+anything in here is particularly worth reusing yet, although syntax references are always nice.
 
 Author: Aaron Gillespie, derived from:
 Original Author: Denise Case
